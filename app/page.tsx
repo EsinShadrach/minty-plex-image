@@ -14,6 +14,7 @@ export default function Home({ searchParams }: HomeProps) {
 
   const { ref, isLoading, getPng } = useToImage({
     backgroundColor: "#2063F2",
+    quality: 1,
   });
 
   return (
