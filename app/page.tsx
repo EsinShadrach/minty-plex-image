@@ -25,7 +25,7 @@ export default function Home({ searchParams }: HomeProps) {
   });
 
   return (
-    <main className="bg-[#1C1E1E]">
+    <main>
       <section className="container flex flex-col items-center justify-center min-h-screen p-3 mx-auto gap-4">
         <Image
           className=""
@@ -48,7 +48,7 @@ export default function Home({ searchParams }: HomeProps) {
             <div
               className={`w-full max-w-[15rem] p-3 mx-auto text-xl text-[#2063F2] bg-white rounded-lg box-shadow-custom border border-black light-font font-light`}
             >
-              {name ?? "username"}.mtpx
+              {name ?? "username.mtpx"}
             </div>
           </div>
           <div className="text-[#2063F2] text-4xl bg-white  whitespace-nowrap overflow-hidden font-medium tracking-[-0.075em] py-1">

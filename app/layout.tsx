@@ -26,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${baseFont.className} ${lightFont.variable}`}>
+      <body className={`${baseFont.className} ${lightFont.variable} minty-bg`}>
         {children}
       </body>
     </html>

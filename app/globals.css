@@ -12,3 +12,9 @@
     font-family: var(--font-light);
   }
 }
+.minty-bg {
+  background-image: url("/logo_bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
