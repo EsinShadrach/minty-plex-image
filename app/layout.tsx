@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const baseFont = localFont({
   src: "./TT Firs Neue Trial Medium.ttf",
